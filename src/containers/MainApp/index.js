@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 
-import { Layout } from "antd";
+import { Layout, theme } from "antd";
 import Sidebar from "../Sidebar";
+import HeaderContent from "../Header";
 import AppContent from "../../routes";
-
+import "../Sidebar/style.css";
+import "../Header/style.css";
 const { Header, Content, Footer, Sider } = Layout;
 
 const index = () => {
@@ -13,9 +15,12 @@ const index = () => {
         style={{
           padding: 0,
         }}
-      ></Header>
+        className="header"
+      >
+        <HeaderContent />
+      </Header>
       <Layout>
-        <Sider defaultCollapsed={true}>
+        <Sider defaultCollapsed={true} className="sidebar">
           <Sidebar />
         </Sider>
         <Layout>

@@ -1,0 +1,24 @@
+.header{
+    padding: 0;
+    background: #7BC4B2;
+    /* background: #fff; */
+    /* background: #d53369;  
+    background: -webkit-linear-gradient(to top, #cbad6d, #d53369);  
+    background: linear-gradient(to top, #cbad6d, #d53369);  */
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #d53369; */
+    /* background: #d53369;  
+    background: -webkit-linear-gradient(to top, #cbad6d, #d53369);  
+    background: linear-gradient(to top, #cbad6d, #d53369);  */
+}
+
+.appName{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}

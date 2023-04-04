@@ -1,0 +1,13 @@
+.Sidebar{
+    height: 100%;
+    background: #fff;  
+}
+
+.Sidebar .ant-menu-item{
+    color: #7BC4B2;
+}
+.Sidebar .ant-menu-item-selected{
+    background: #d6f0e9;  
+    color: #000;
+    border-radius: 15px;
+}
