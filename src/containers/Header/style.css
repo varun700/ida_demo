@@ -1,24 +1,52 @@
 .header{
     padding: 0;
     background: #7BC4B2;
-    /* background: #fff; */
-    /* background: #d53369;  
-    background: -webkit-linear-gradient(to top, #cbad6d, #d53369);  
-    background: linear-gradient(to top, #cbad6d, #d53369);  */
+    height: 60px;
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #d53369; */
-    /* background: #d53369;  
-    background: -webkit-linear-gradient(to top, #cbad6d, #d53369);  
-    background: linear-gradient(to top, #cbad6d, #d53369);  */
 }
 
 .appName{
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    color: #d8fbf2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.userImage{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.userImage Avatar {
+    background-color: #0d8c6d;
+}
+
+.userName, .userDesig {
+    margin: 0px 5px;
+    color: #064938;
+}
+
+.userDesc {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerSelect{
+    width: 100%;
+    height: 100%;
+}
