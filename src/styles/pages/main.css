@@ -1,0 +1,8 @@
+.pageTitle {
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    background-color: #7bc4b2;
+    height: 80px;
+    width: 100%;
+}

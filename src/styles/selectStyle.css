@@ -1,0 +1,12 @@
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled){
+    background-color: #7BC4B2 !important;
+    color: #fff !important;
+}
+
+.ant-select-selector{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ant-select :hover{
+    border-color: #fff !important;
+}
